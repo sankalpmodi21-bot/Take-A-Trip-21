@@ -85,6 +85,7 @@ export default function HotelsPage() {
             Looking for a cozy stay or a luxury resort? Share your requirements, and we'll curate the best hotel options for your trip.
           </p>
           <div className="relative h-[400px] rounded-[2.5rem] overflow-hidden shadow-lg border-2 border-[#e8862c]/20">
+            {/* Replace src below with your actual hotels image path */}
             <Image 
               src="https://picsum.photos/seed/hotelroom/800/600" 
               alt="Hotels" 

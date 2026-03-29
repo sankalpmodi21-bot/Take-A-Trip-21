@@ -36,6 +36,7 @@ export default function VisasPage() {
             Navigating visa requirements can be complex. Let us simplify the process for you. Fill out the form to get expert assistance.
           </p>
           <div className="relative h-[400px] rounded-[2.5rem] overflow-hidden shadow-lg border-2 border-[#e8862c]/20">
+            {/* Replace src below with your actual visas image path */}
             <Image 
               src="https://picsum.photos/seed/passport/800/600" 
               alt="Visas" 

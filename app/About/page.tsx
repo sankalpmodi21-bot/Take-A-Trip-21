@@ -9,6 +9,7 @@ export default function AboutPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
+            {/* Replace src below with your actual history/about image path */}
             <img src="https://picsum.photos/seed/history/800/600" alt="Our History" className="rounded-[2.5rem] shadow-lg w-full object-cover h-[400px]" />
           </div>
           <div>

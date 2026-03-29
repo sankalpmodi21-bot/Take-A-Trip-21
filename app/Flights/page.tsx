@@ -37,6 +37,7 @@ export default function FlightsPage() {
             Ready to take off? Fill out the details below, and our experts will find the best flight options tailored to your schedule and budget.
           </p>
           <div className="relative h-[400px] rounded-[2.5rem] overflow-hidden shadow-lg border-2 border-[#e8862c]/20">
+            {/* Replace src below with your actual flights image path */}
             <Image 
               src="https://picsum.photos/seed/airport/800/600" 
               alt="Flights" 

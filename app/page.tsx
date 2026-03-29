@@ -26,6 +26,7 @@ export default function Home() {
     <div className="bg-[#ffffff]">
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        {/* Replace the URL below with your actual hero background image path */}
         <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/hero/1920/1080')] bg-cover bg-center">
           <div className="absolute inset-0 bg-[#0f172a]/70 mix-blend-multiply"></div>
         </div>
