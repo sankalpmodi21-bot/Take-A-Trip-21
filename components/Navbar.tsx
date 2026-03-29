@@ -8,7 +8,11 @@ export function Navbar() {
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-2xl font-extrabold text-[#e8862c] tracking-tight uppercase">
+            <Link href="/" className="flex items-center gap-3 text-2xl font-extrabold text-[#e8862c] tracking-tight uppercase">
+              {/* Replace src with your actual logo path */}
+              <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#e8862c]/20">
+                <img src="https://picsum.photos/seed/logo/100/100" alt="Take a Trip Logo" className="w-full h-full object-cover" />
+              </div>
               Take a Trip
             </Link>
           </div>

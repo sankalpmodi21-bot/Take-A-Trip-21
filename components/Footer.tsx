@@ -6,7 +6,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
-            <h3 className="text-2xl font-extrabold text-[#e8862c] tracking-tight uppercase mb-6">Take a Trip</h3>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#e8862c]/20">
+                <img src="https://picsum.photos/seed/logo/100/100" alt="Take a Trip Logo" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-2xl font-extrabold text-[#e8862c] tracking-tight uppercase m-0">Take a Trip</h3>
+            </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               Your premier travel partner for domestic and international destinations. Founded by Sankalp Modi, we are dedicated to providing mission-driven, personalized travel experiences.
             </p>
